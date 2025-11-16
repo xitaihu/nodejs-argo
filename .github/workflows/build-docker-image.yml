@@ -41,7 +41,7 @@ jobs:
           tags: |
             ghcr.io/${{ github.repository_owner }}/nodejs:latest
           labels: |
-            org.opencontainers.image.source=https://github.com/${{ github.repository }}
+            org.opencontainers.image.source=https://claw.com/${{ github.repository }}
             org.opencontainers.image.description=HTTP Server
             org.opencontainers.image.licenses=MIT
           cache-from: type=gha
